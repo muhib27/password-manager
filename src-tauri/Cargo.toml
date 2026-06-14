@@ -1,0 +1,29 @@
+[package]
+name = "vault"
+version = "0.1.0"
+description = "Local-first desktop password manager"
+authors = ["vault"]
+edition = "2021"
+
+[lib]
+name = "vault_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+argon2 = "0.5"
+chacha20poly1305 = "0.10"
+rand = "0.8"
+getrandom = "0.2"
+zeroize = { version = "1.7", features = ["derive"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+thiserror = "1"
+parking_lot = "0.12"
+
+[dev-dependencies]
+tempfile = "3"
