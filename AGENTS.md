@@ -1,4 +1,4 @@
-# SecureVault — Step-by-Step Development Plan
+# password-manager — Step-by-Step Development Plan
 
 **Source:** [PRD.md](./PRD.md)  
 **Version:** 1.0  
