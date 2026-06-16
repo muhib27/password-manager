@@ -34,7 +34,7 @@ This document breaks the PRD into ordered, implementable steps. Complete each st
 
 **Tasks**
 - [ ] Run `npm create tauri-app@latest` (or equivalent) with React + TypeScript + Vite
-- [ ] Confirm project name / app identifier (e.g. `com.securevault.app`)
+- [ ] Confirm project name / app identifier (e.g. `com.passwordmanager.app`)
 - [ ] Set minimum window size to 900×600 in `tauri.conf.json`
 - [ ] Install Tailwind CSS and configure for Vite
 - [ ] Install React Router
